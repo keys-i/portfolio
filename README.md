@@ -14,13 +14,6 @@ _NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn 
 
 <a href="# Web simulation of UbuntuOS
 
-![](https://media.licdn.com/dms/image/C562DAQFjprpK3CS5CQ/profile-treasury-image-shrink_800_800/0/1675446558156?e=1678903200&v=beta&t=XXJ0wh6tvL1tKTer7gniBmRevAQaKU5g9YRBb4ArZLE)
-
-<a href="https://portfolio-six-pi-81.vercel.app/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
-
-This is a recreated website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
-If you want to edit this, Clone this project and edit the files in `/src/components`.
-
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
 
