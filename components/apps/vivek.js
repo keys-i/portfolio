@@ -186,7 +186,7 @@ function Skills() {
             </ul>
             <div className="w-full md:w-10/12 flex mt-4">
                 <div className=" text-sm text-center md:text-base w-1/2 font-bold">Languages & Tools</div>
-                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Frameworks & Libraries</div>
+                <div className=" text-sm text-center md:text-base w-1/2 font-bold">Other Tools</div>
             </div>
             <div className="w-full md:w-10/12 flex justify-center items-start font-bold text-center">
                 <div className="px-2 w-1/2">
@@ -203,13 +203,14 @@ function Skills() {
                 </div>
                 <div className="px-2 flex flex-wrap items-start w-1/2">
                     <div className="flex flex-wrap justify-center items-start w-full mt-2">
-                        <img className=" m-1" src="https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=ffffff" alt="radhesh next" />
-                        <img className=" m-1" src="https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=ffffff" alt="radhesh react" />
-                        <img className="m-1" src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white" alt="radhesh flutter" />
-                        <img className="m-1" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white" alt="radhesh tailwind css" />
-                        <img src="https://img.shields.io/badge/-Nodejs-339933?style=flat&logo=Node.js&logoColor=ffffff" alt="radhesh node.js" className="m-1" />
-                        <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white" alt="radhesh jquery" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white" alt="radhesh redux" />
+                        <img className=" m-1" src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=Raspberry%20Pi&logoColor=white" alt="radhesh raspberrypi" />
+                        <img className=" m-1" src="	https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white" alt="radhesh arduino" />
+                        <img className="m-1" src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=flat&logo=gnu-emacs&logoColor=white" alt="radhesh emacs" />
+                        <img className="m-1" src="https://img.shields.io/badge/replit-667881?style=flat&logo=replit&logoColor=white" alt="radhesh replit" />
+                        <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh vim" className="m-1" />
+                        <img src="	https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=flat&logo=Canva&logoColor=white" alt="radhesh canva" className="m-1" />
+                        <img className="m-1" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh gimp" />
+                        <img className="m-1" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh gimp" />
                     </div>
                 </div>
             </div>
