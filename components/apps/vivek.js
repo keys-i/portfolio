@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga';
 
-export class AboutVivek extends Component {
+export class AboutRadhesh extends Component {
 
     constructor() {
         super();
@@ -102,10 +102,10 @@ export class AboutVivek extends Component {
     }
 }
 
-export default AboutVivek;
+export default AboutRadhesh;
 
-export const displayAboutVivek = () => {
-    return <AboutVivek />;
+export const displayAboutRadhesh = () => {
+    return <AboutRadhesh />;
 }
 
 
@@ -113,10 +113,10 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
+                <img className="w-full" src="./images/logos/bitmoji.png" alt="Radhesh Goel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
-                <div>my name is <span className="font-bold">Vivek Patel</span> ,</div>
+                <div>my name is <span className="font-bold">Radhesh Goel</span> ,</div>
                 <div className="font-normal ml-1">I'm a <span className="text-pink-600 font-bold">Software Engineer!</span></div>
             </div>
             <div className=" mt-4 relative md:my-8 pt-px bg-white w-32 md:w-48">
@@ -389,6 +389,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="Radhesh Goel resume" frameBorder="0"></iframe>
     )
 }
