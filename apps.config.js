@@ -1,12 +1,14 @@
-import displaySpotify from './components/apps/spotify';
-import displayVsCode from './components/apps/vscode';
-import { displayTerminal } from './components/apps/terminal';
-import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutRadhesh } from './components/apps/radhesh';
 import { displayTerminalCalc } from './components/apps/calc';
+import displayImageGenerator from './components/apps/image-generator';
+import displayQuestionAnswer from './components/apps/question-answer';
+import displayClangSocial from './components/apps/clang-social';
+import displayInfix from './components/apps/infix';
+import displayTodoApp from './components/apps/todo';
+import displayCrowdFunding from './components/apps/crowdfunding';
 
 const apps = [
     {
@@ -28,8 +30,8 @@ const apps = [
         screen: displayTerminalCalc,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-radhesh",
+        title: "About Radhesh",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,
@@ -89,6 +91,68 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayGedit,
+    },    {
+        id: "clang-social",
+        title: "Clang Social",
+        icon: './themes/Yaru/apps/clang.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayClangSocial,
+    },
+    {
+        id: "question-answer",
+        title: "Q/A",
+        icon: './themes/Yaru/apps/question.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayQuestionAnswer,
+    },
+    {
+        id: "image-generator",
+        title: "Image Generator",
+        icon: './themes/Yaru/apps/image.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayImageGenerator,
+    },
+    {
+        id: "infix",
+        title: "Infix Operations",
+        icon: './themes/Yaru/apps/infix.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayInfix,
+    },
+    {
+        id: "todo",
+        title: "ToDo App",
+        icon: './themes/Yaru/apps/todo.png',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayTodoApp,
+    },
+    {
+        id: "crowdfunding",
+        title: "CrowdFunding ",
+        icon: './themes/Yaru/apps/crowdfunding.svg',
+        disabled: false,
+        favourite: false,
+        desktop_shortcut: true,
+        screen: displayCrowdFunding,
+    },
+    {
+        id: "settings",
+        title: "Settings",
+        icon: './themes/Yaru/apps/gnome-control-center.png',
+        disabled: false,
+        favourite: true,
+        desktop_shortcut: false,
+        screen: displaySettings,
     },
 ]
 
