@@ -323,7 +323,7 @@ function Projects() {
         "firebase auth": "red-400",
         "chrome-extension": "yellow-400",
         "flutter": "blue-400",
-        "dart": "blue-500",
+        "rust": "gray-700",
         "react-native": "purple-500",
         "html5": "pink-600",
         "sass": "pink-400",
