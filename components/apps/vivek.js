@@ -227,7 +227,7 @@ function Projects() {
         {
             name: "UbuntuOS Portfolio",
             date: "Apr 2021",
-            link: "https://github.com/radhesh1/radhesh1.github.io",
+            link: "https://github.com/radhesh1/Portfolio",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -297,20 +297,20 @@ function Projects() {
             domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
         },
         {
-            name: "Problem Recommendation System",
+            name: "Tic Tac Toe",
             date: "Sep 2020",
-            link: "https://github.com/radhesh1/Improve-Codeforces",
+            link: "https://github.com/radhesh1/tic-tac-toe",
             description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
+                "the timeless game we all know and love comes to life with a simple and intuitive interface. Challenge your friends or family to exciting matches and enjoy the nostalgia of this classic game..",
             ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
+            domains: ["html5", "javaScript", "css"]
         },
         {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/radhesh1/CPU-Scheduling-APP-React-Native",
+            name: "Flexbox Froggy Game",
+            date: "June 2023",
+            link: "https://github.com/radhesh1/Flexbox-Froggy-Game",
             description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
+                "a captivating game that makes learning Flexbox an enjoyable experience! This project is a clone of the popular game Flexbox Froggy, designed to help developers understand and master the power of CSS Flexbox",
             ],
         }
     ];
