@@ -1,3 +1,7 @@
+import displaySpotify from './components/apps/spotify';
+import displayVsCode from './components/apps/vscode';
+import { displayTerminal } from './components/apps/terminal';
+import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
@@ -9,7 +13,6 @@ import displayClangSocial from './components/apps/clang-social';
 import displayInfix from './components/apps/infix';
 import displayTodoApp from './components/apps/todo';
 import displayCrowdFunding from './components/apps/crowdfunding';
-
 const apps = [
     {
         id: "chrome",
@@ -36,7 +39,7 @@ const apps = [
         disabled: false,
         favourite: true,
         desktop_shortcut: true,
-        screen: displayAboutVivek,
+        screen: displayAboutRadhesh,
     },
     {
         id: "vscode",
@@ -144,15 +147,6 @@ const apps = [
         favourite: false,
         desktop_shortcut: true,
         screen: displayCrowdFunding,
-    },
-    {
-        id: "settings",
-        title: "Settings",
-        icon: './themes/Yaru/apps/gnome-control-center.png',
-        disabled: false,
-        favourite: true,
-        desktop_shortcut: false,
-        screen: displaySettings,
     },
 ]
 
