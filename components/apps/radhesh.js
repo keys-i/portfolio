@@ -119,7 +119,7 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/profile.jpg" alt="Radhesh Goel Logo" />
+                <img className="w-full" src="./public/images/logos/profile.jpg" alt="Radhesh Goel Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>my name is <span className="font-bold">Radhesh Goel</span> ,</div>
