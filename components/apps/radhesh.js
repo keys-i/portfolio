@@ -135,7 +135,7 @@ function About() {
 }
 function Portfolio() {
     return (
-        <iframe src="https://shubhamlal.pages.dev" frameBorder="0" title="My Portfolio" className="h-full w-full bg-ub-cool-grey"></iframe>
+        <iframe src="https://pontiff.vercel.app/" frameBorder="0" title="My Portfolio" className="h-full w-full bg-ub-cool-grey"></iframe>
     )
 }
 
@@ -216,7 +216,6 @@ function Skills() {
                         <img className="m-1" src="https://img.shields.io/badge/replit-667881?style=flat&logo=replit&logoColor=white" alt="radhesh replit" />
                         <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh vim" className="m-1" />
                         <img src="	https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=flat&logo=Canva&logoColor=white" alt="radhesh canva" className="m-1" />
-                        <img className="m-1" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh gimp" />
                         <img className="m-1" src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white" alt="radhesh gimp" />
                     </div>
                 </div>
