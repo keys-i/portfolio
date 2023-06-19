@@ -133,7 +133,7 @@ function About() {
                 <li className=" list-pc">I'm a <span className=" font-medium">Undergraduate Student</span> currently pursuing Computer Science. I am a contributor at <u className=' cursor-pointer '> <a href="https://en.wikipedia.org/wiki/AlmaLinux" target={"_blank"}>AlmaLinux</a> </u>, and now I'm looking for some internship opportunities! ( Hit me up <a className='text-underline' href='mailto:radhesh036916@gmail.com'><u>@radhesh036916@gmail.com</u></a> :) )</li>
                 <li className=" mt-3 list-building"> I enjoy building awesome things that use my creativity.</li>
                 <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, learning a new language or watching <a href="https://www.youtube.com/@RasOrgUk" target="_blank" rel="noreferrer"> Royal Astronomical Society's lectures.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Game Development ,and CyberSecurity!</li>
+                <li className=" mt-3 list-star"> And I also have interest in Languages, Physics, Chemistry ,and Mathematics!</li>
             </ul>
         </>
     )
