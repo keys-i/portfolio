@@ -238,7 +238,7 @@ function Projects() {
     const project_list = [
         {
             name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
+            date: "June 2023",
             link: "https://github.com/radhesh1/Portfolio",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
@@ -246,71 +246,80 @@ function Projects() {
             domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
-            link: "https://github.com/radhesh1/chrome-extension-react-boilerplate",
+            name: "primus-os",
+            date: "May 2023",
+            link: "https://github.com/radhesh1/primus-os",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "A simple bare-bones 32-bit operating system written in Assembly x86 and C for educational purposes.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Assembly","Shell", "C"]
         },
         {
-            name: "CodeConnect",
-            date: "Nov 2021",
-            link: "https://github.com/radhesh1/CodeConnect-frontend",
+            name: "LearnerOS1",
+            date: "May 2023",
+            link: "https://github.com/radhesh1/LearnerOS1",
             description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
+                "A simple OS which shows the implementation of Kernel and Bootloader",
             ],
-            domains: ["javascript", "tailwindcss"]
+            domains: ["Assembly","Shell", "C"]
         },
         {
-            name: "Ad Free Spotify",
-            date: "Jun 2021",
-            link: "https://github.com/radhesh1/ad-free-spotify",
+            name: "LearnerOS",
+            date: "May 2023",
+            link: "https://github.com/radhesh1/LeanerOS",
             description: [
-                "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
+                "A small hello world - like OS usng C , Shell and assembly code.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Assembly","Shell", "C"]
         },
         {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/radhesh1/economist.com-unlocked",
+            name: "Python-scraper-basic",
+            date: "Oct 2022",
+            link: "https://github.com/radhesh1/Python-scraper-basic",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "A scraper to scrap off images",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["python"]
         },
         {
-            name: "Flutter banking app",
-            date: "Jan 2021",
-            link: "https://github.com/radhesh1/flutter-banking-app",
+            name: "code-server",
+            date: "Mar 2023",
+            link: "https://github.com/radhesh1/code-server",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "A self-hostable server of coding IDE on my raspberry pi using docker.",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: ["javascript", "shell", "typescript", "docker"]
         },
         {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/radhesh1/CPU-Scheduling-APP-React-Native",
+            name: "ClockWork",
+            date: "Oct 2022",
+            link: "https://github.com/radhesh1/ClockWork",
             description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
+                "A digital and analog clock to used a minimalistic screensaver.",
             ],
-            domains: ["react-native", "javascript"]
+            domains: ["Python", "tk"]
         },
         {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/radhesh1/Meditech-Healthcare",
+            name: "Panicking",
+            date: "June 2023",
+            link: "https://github.com/radhesh1/panicking",
             description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
+                "A module to make kernel panic.",
             ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
+            domains: ["C", "CMake"]
+        },
+        {
+            name: "hello_world",
+            date: "June 2023",
+            link: "https://github.com/radhesh1/hello_world",
+            description: [
+                "A basic \"Hello World\" kernel module.",
+            ],
+            domains: ["C", "CMake"]
         },
         {
             name: "Tic Tac Toe",
-            date: "Sep 2020",
+            date: "June 2023",
             link: "https://github.com/radhesh1/tic-tac-toe",
             description: [
                 "the timeless game we all know and love comes to life with a simple and intuitive interface. Challenge your friends or family to exciting matches and enjoy the nostalgia of this classic game..",
