@@ -333,6 +333,7 @@ function Projects() {
             description: [
                 "a captivating game that makes learning Flexbox an enjoyable experience! This project is a clone of the popular game Flexbox Froggy, designed to help developers understand and master the power of CSS Flexbox",
             ],
+            domains: ["html5", "javaScript", "css"]
         }
     ];
 
