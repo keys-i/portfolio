@@ -12,12 +12,12 @@ export class Terminal extends Component {
         this.prev_commands = [];
         this.commands_index = -1;
         this.child_directories = {
-            root: ["books", "projects", "personal-documents", "skills", "languages", "PDPU", "interests"],
-            PDPU: ["Sem-6"],
-            books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
-            skills: ["Front-end development", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
-            projects: ["radhesh1-personal-portfolio", "synonyms-list-react", "economist.com-unlocked", "Improve-Codeforces", "flutter-banking-app", "Meditech-Healthcare", "CPU-Scheduling-APP-React-Native"],
-            interests: ["Software Engineering", "Deep Learning", "Computer Vision"],
+            root: ["books", "projects", "personal-documents", "skills", "languages", "university", "interests"],
+            university: ["Sem-3"],
+            books: ["Philosophiæ-Naturalis-Principia-Mathematica.pdf", "Ars-Magna.pdf", "Disquisitiones-Arithmeticae.pdf", "codex-leicester.pdf"],
+            skills: ["OS development", "C", "RISC-V", "C#", "Raspberry Pi", "Python", "Rust"],
+            projects: ["radhesh1-personal-portfolio", "PrimusOS", "\"Hello World\" OS", "Simple OS", "Flexbox-froggy-game", "tic-tac-toe", "clockwork"],
+            interests: ["Software Engineering", "Physics", "Chemistry", "Mathematics", "Philosophy", "Latin", "OS", "CyberSecurity"],
             languages: ["Javascript", "C++", "Java", "Dart"],
         };
         this.state = {
