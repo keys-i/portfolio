@@ -35,7 +35,7 @@ export class Gedit extends Component {
 
         if (message.length === 0) {
             $("#sender-message").val('');
-            $("#sender-message").attr("placeholder", "Message must not be Empty!"+document.write(serviceID););
+            $("#sender-message").attr("placeholder", "Message must not be empty!");
             error = true;
         }
         if (error) return;
