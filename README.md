@@ -5,7 +5,7 @@
 <a href="https://portfolio-radhesh1.app/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
 
 This is a personal website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
-If you want to edit this, Clone this project and edit the files in `/src/components`.
+If you want to edit this, Clone this project ,and edit the files in `/src/components`.
 
 To run this on localhost
 type `npm start` and when u are done coding type `npm run build` to build your app.
