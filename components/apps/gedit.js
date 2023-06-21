@@ -35,7 +35,7 @@ export class Gedit extends Component {
 
         if (message.length === 0) {
             $("#sender-message").val('');
-            $("#sender-message").attr("placeholder", "Message must not be Empty!");
+            $("#sender-message").attr("placeholder", "Message must not be empty!");
             error = true;
         }
         if (error) return;
@@ -44,6 +44,7 @@ export class Gedit extends Component {
 
         const serviceID = process.env.NEXT_PUBLIC_SERVICE_ID;
         const templateID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
+        // template_xs6t4ka
         const templateParams = {
             'name': name,
             'subject': subject,
