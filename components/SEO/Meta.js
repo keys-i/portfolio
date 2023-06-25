@@ -20,12 +20,12 @@ export default function Meta() {
             <meta name="theme-color" content="#E95420" />
 
             /* Search Engine */
-            <meta name="image" content="images/logos/fevicon.png" />
+            <meta name="image" content="images/logos/favicon.ico" />
             /* Schema.org for Google */
             <meta itemProp="name" content="Radhesh Goel Portfolio - Computer Engineering Student" />
             <meta itemProp="description"
                 content="Radhesh Goel's (radhesh1) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS." />
-            <meta itemProp="image" content="images/logos/fevicon.png" />
+            <meta itemProp="image" content="images/logos/favicon.ico" />
             /* Twitter */
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="Radhesh Goel Portfolio - Computer Engineering Student" />
