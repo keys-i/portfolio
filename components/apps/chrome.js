@@ -60,6 +60,11 @@ export class Chrome extends Component {
         this.setState({ display_url: e.target.value });
     }
 
+    reverseQuerySearch = () => {
+        // Add your logic for reverse query search here
+        alert("Performing reverse query search!");
+    }
+
     displayUrlBar = () => {
         return (
             <div className="w-full pt-0.5 pb-1 flex justify-start items-center text-white text-sm border-b border-gray-900">
@@ -69,6 +74,9 @@ export class Chrome extends Component {
                 <div onClick={this.goToHome} className=" mr-2 ml-1 flex justify-center items-center rounded-full bg-gray-50 bg-opacity-0 hover:bg-opacity-10">
                     <img className="w-5" src="./themes/Yaru/status/chrome_home.svg" alt="Ubuntu Chrome Home" />
                 </div>
+                <button onClick={this.reverseQuerySearch} className="ml-2 mr-1 flex justify-center items-center rounded-full bg-gray-50 bg-opacity-0 hover:bg-opacity-10">
+                    Reverse Search
+                </button>
                 <input onKeyDown={this.checkKey} onChange={this.handleDisplayUrl} value={this.state.display_url} id="chrome-url-bar" className="outline-none bg-ub-grey rounded-full pl-3 py-0.5 mr-3 w-5/6 text-gray-300 focus:text-white" type="url" spellCheck={false} autoComplete="off" />
             </div>
         );
@@ -84,7 +92,7 @@ export class Chrome extends Component {
     }
 }
 
-export default Chrome
+export default Chrome;
 
 export const displayChrome = () => {
     return <Chrome> </Chrome>;
