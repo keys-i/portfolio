@@ -61,10 +61,10 @@ export class Chrome extends Component {
     }
 
     reverseQuerySearch = () => {
-        // Add your logic for reverse query search here
-        alert("Performing reverse query search!");
+        const searchQuery = `https://www.google.com/search?q=${encodeURIComponent(this.state.display_url)}&igu=1`;
+        this.setState({ url: searchQuery }, this.refreshChrome);
+        this.storeVisitedUrl(searchQuery, this.state.display_url);
     }
-
     displayUrlBar = () => {
         return (
             <div className="w-full pt-0.5 pb-1 flex justify-start items-center text-white text-sm border-b border-gray-900">
