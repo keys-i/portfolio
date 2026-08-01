@@ -22,6 +22,14 @@ jobs:
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
         with:
           persist-credentials: false
+      - name: Enforce one-segment branch names
+        if: github.event_name == 'pull_request'
+        run: cargo run --locked --quiet --bin branch-policy -- "$BRANCH_NAME"
+        env:
+          BRANCH_NAME: ${{ github.head_ref }}
+      - run: cargo fmt --check
+      - run: cargo clippy --locked --all-targets -- -D warnings
+      - run: cargo test --locked
       - name: Use Node.js
         uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
         with:

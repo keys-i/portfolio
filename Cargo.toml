@@ -1,0 +1,15 @@
+[package]
+name = "rad-portfolio"
+version = "26.8.0"
+edition = "2024"
+publish = false
+description = "Repository policy tooling for Rad's Portfolio"
+license-file = "LICENSE"
+repository = "https://github.com/keys-i/portfolio"
+homepage = "https://keys-i.github.io/portfolio/"
+readme = "README.md"
+exclude = ["/.env*", "/.next/**", "/node_modules/**", "/out/**", "/target/**"]
+
+[[bin]]
+name = "branch-policy"
+path = "tools/branch.rs"

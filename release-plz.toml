@@ -1,0 +1,9 @@
+[workspace]
+git_only = true
+release_always = false
+semver_check = false
+
+[[package]]
+name = "rad-portfolio"
+changelog_path = "CHANGELOG.md"
+publish = false
