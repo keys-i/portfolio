@@ -73,21 +73,13 @@ export class Chrome extends Component {
           onClick={this.refreshChrome}
           className=" ml-2 mr-1 flex justify-center items-center rounded-full bg-gray-50 bg-opacity-0 hover:bg-opacity-10"
         >
-          <img
-            className="w-5"
-            src="./themes/Yaru/status/chrome_refresh.svg"
-            alt="Ubuntu Chrome Refresh"
-          />
+          <img className="w-5" src="./themes/Yaru/status/chrome_refresh.svg" alt="Refresh page" />
         </div>
         <div
           onClick={this.goToHome}
           className=" mr-2 ml-1 flex justify-center items-center rounded-full bg-gray-50 bg-opacity-0 hover:bg-opacity-10"
         >
-          <img
-            className="w-5"
-            src="./themes/Yaru/status/chrome_home.svg"
-            alt="Ubuntu Chrome Home"
-          />
+          <img className="w-5" src="./themes/Yaru/status/chrome_home.svg" alt="Open home page" />
         </div>
         <button
           onClick={this.reverseQuerySearch}
@@ -120,7 +112,7 @@ export class Chrome extends Component {
           className="flex-grow"
           id="chrome-screen"
           frameBorder="0"
-          title="Ubuntu Chrome Url"
+          title="Browser address"
         ></iframe>
       </div>
     );

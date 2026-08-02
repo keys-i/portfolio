@@ -34,7 +34,7 @@ const apps = [
   },
   {
     id: "about-radhesh",
-    title: "About Radhesh",
+    title: "About Rad",
     icon: "./themes/Yaru/system/user-home.png",
     disabled: false,
     favourite: true,

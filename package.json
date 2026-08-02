@@ -1,6 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "rad-portfolio",
   "private": true,
+  "description": "An interactive portfolio presented as the Krad Linux desktop.",
   "homepage": "https://keys-i.github.io/portfolio/",
   "scripts": {
     "dev": "next dev",

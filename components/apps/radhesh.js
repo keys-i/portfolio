@@ -60,7 +60,7 @@ export class AboutRadhesh extends Component {
             " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
           }
         >
-          <img className=" w-3 md:w-4" alt="about radhesh" src="./themes/Yaru/status/about.svg" />
+          <img className=" w-3 md:w-4" alt="About Rad" src="./themes/Yaru/status/about.svg" />
           <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
         </div>
         <div
@@ -76,7 +76,7 @@ export class AboutRadhesh extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="about shubham"
+            alt="Rad’s portfolio"
             src="./themes/Yaru/status/portfolio.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Portfolio</span>
@@ -94,7 +94,7 @@ export class AboutRadhesh extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="radhesh' education"
+            alt="Rad’s education"
             src="./themes/Yaru/status/education.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
@@ -110,11 +110,7 @@ export class AboutRadhesh extends Component {
             " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
           }
         >
-          <img
-            className=" w-3 md:w-4"
-            alt="radhesh' skills"
-            src="./themes/Yaru/status/skills.svg"
-          />
+          <img className=" w-3 md:w-4" alt="Rad’s skills" src="./themes/Yaru/status/skills.svg" />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Skills</span>
         </div>
         <div
@@ -130,7 +126,7 @@ export class AboutRadhesh extends Component {
         >
           <img
             className=" w-3 md:w-4"
-            alt="radhesh' projects"
+            alt="Rad’s projects"
             src="./themes/Yaru/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
@@ -146,20 +142,8 @@ export class AboutRadhesh extends Component {
             " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"
           }
         >
-          <img
-            className=" w-3 md:w-4"
-            alt="radhesh's resume"
-            src="./themes/Yaru/status/download.svg"
-          />
+          <img className=" w-3 md:w-4" alt="Rad’s résumé" src="./themes/Yaru/status/download.svg" />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
-        </div>
-        <div className="my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex">
-          <iframe
-            src="https://github.com/sponsors/radhesh1/button"
-            title="Sponsor radhesh1"
-            width={"100%"}
-            height={"100%"}
-          ></iframe>
         </div>
       </>
     );
@@ -212,7 +196,7 @@ function About() {
       </div>
       <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
         <div>
-          my name is <span className="font-bold">Radhesh Goel</span> ,
+          my name is <span className="font-bold">Rad</span>,
         </div>
         <div className="font-normal ml-1">
           I'm a <span className="text-pink-600 font-bold">OS Developer!</span>
@@ -338,22 +322,22 @@ function Skills() {
             <img
               className="m-1"
               src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white"
-              alt="radhesh c"
+              alt="C"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white"
-              alt="radhesh c++"
+              alt="C#"
             />
             <img
               className="m-1"
-              src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
-              alt="radhesh c#"
+              src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
+              alt="Python"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white"
-              alt="radhesh bash"
+              alt="Bash"
             />
             <a
               href="https://www.google.com/search?q=is+html+a+language%3F"
@@ -364,22 +348,22 @@ function Skills() {
                 title="yes it's a language!"
                 className="m-1"
                 src="https://img.shields.io/badge/-HTML5-%23E44D27?style=flat&logo=html5&logoColor=ffffff"
-                alt="radhesh HTML"
+                alt="HTML5"
               />
             </a>
             <img
               src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white"
-              alt="radhesh rust"
+              alt="Rust"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
-              alt="radhesh git"
+              alt="Git"
               className="m-1"
             />
             <img
               src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white"
-              alt="radhesh markdown"
+              alt="Markdown"
               className="m-1"
             />
           </div>
@@ -389,37 +373,37 @@ function Skills() {
             <img
               className=" m-1"
               src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat&logo=Raspberry%20Pi&logoColor=white"
-              alt="radhesh raspberrypi"
+              alt="Raspberry Pi"
             />
             <img
               className=" m-1"
-              src="	https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white"
-              alt="radhesh arduino"
+              src="https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white"
+              alt="Arduino"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/Emacs-%237F5AB6.svg?&style=flat&logo=gnu-emacs&logoColor=white"
-              alt="radhesh emacs"
+              alt="Emacs"
             />
             <img
               className="m-1"
               src="https://img.shields.io/badge/replit-667881?style=flat&logo=replit&logoColor=white"
-              alt="radhesh replit"
+              alt="Replit"
             />
             <img
               src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white"
-              alt="radhesh vim"
+              alt="Vim"
               className="m-1"
             />
             <img
-              src="	https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=flat&logo=Canva&logoColor=white"
-              alt="radhesh canva"
+              src="https://img.shields.io/badge/Canva-%2300C4CC.svg?&style=flat&logo=Canva&logoColor=white"
+              alt="Canva"
               className="m-1"
             />
             <img
               className="m-1"
-              src="https://img.shields.io/badge/VIM-%2311AB00.svg?&style=flat&logo=vim&logoColor=white"
-              alt="radhesh gimp"
+              src="https://img.shields.io/badge/GIMP-5C5543?style=flat&logo=gimp&logoColor=white"
+              alt="GIMP"
             />
           </div>
         </div>
@@ -429,8 +413,8 @@ function Skills() {
           <span> And of course,</span>{" "}
           <img
             className=" inline ml-1"
-            src="http://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff"
-            alt="radhesh linux"
+            src="https://img.shields.io/badge/-Linux-0078D6?style=plastic&logo=linux&logoColor=ffffff"
+            alt="Linux"
           />{" "}
           <span>!</span>
         </li>
@@ -442,12 +426,10 @@ function Skills() {
 function Projects() {
   const project_list = [
     {
-      name: "UbuntuOS Portfolio",
-      date: "June 2023",
-      link: "https://github.com/radhesh1/Portfolio",
-      description: [
-        "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
-      ],
+      name: "Rad’s Portfolio",
+      date: "August 2026",
+      link: "https://github.com/keys-i/portfolio",
+      description: ["An interactive portfolio presented as the Krad Linux desktop."],
       domains: ["javascript", "next.js", "tailwindcss"],
     },
     {
@@ -556,15 +538,7 @@ function Projects() {
           <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
         </div>
       </div>
-      <iframe
-        src="https://github.com/sponsors/radhesh1/card"
-        title="Sponsor radhesh1"
-        className="my-4 w-5/6 md:w-3/4"
-      ></iframe>
-
       {project_list.map((project, index) => {
-        const projectNameFromLink = project.link.split("/");
-        const projectName = projectNameFromLink[projectNameFromLink.length - 1];
         return (
           <a
             key={index}
@@ -576,19 +550,7 @@ function Projects() {
             <div className="w-full py-1 px-2 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5 cursor-pointer">
               <div className="flex flex-wrap justify-between items-center">
                 <div className="flex justify-center items-center">
-                  <div className=" text-base md:text-lg mr-2">{project.name.toLowerCase()}</div>
-                  {project.noview ? (
-                    ""
-                  ) : (
-                    <iframe
-                      src={`https://ghbtns.com/github-btn.html?user=radhesh1&repo=${projectName}&type=star&count=true`}
-                      frameBorder="0"
-                      scrolling="0"
-                      width="150"
-                      height="20"
-                      title={project.name.toLowerCase() + "-star"}
-                    ></iframe>
-                  )}
+                  <div className=" text-base md:text-lg mr-2">{project.name}</div>
                 </div>
                 <div className="text-gray-300 font-light text-sm">{project.date}</div>
               </div>

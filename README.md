@@ -1,77 +1,59 @@
-# Web simulation of UbuntuOS
+# Rad’s Portfolio
 
-![](https://media.licdn.com/dms/image/C562DAQFjprpK3CS5CQ/profile-treasury-image-shrink_800_800/0/1675446558156?e=1678903200&v=beta&t=XXJ0wh6tvL1tKTer7gniBmRevAQaKU5g9YRBb4ArZLE)
+Rad’s Portfolio is a personal site you explore like a desktop. Its interface, **Krad Linux**,
+turns projects, skills, a résumé, a terminal, a calculator, themes, and a contact form into a
+small browser-based operating system.
 
-<a href="https://portfolio-radhesh1.vercel.app/" target="_blank" style="background: #fff !important; height: 40px !important;width: 140px !important;">Live Site Preview</a>
+[Open Krad Linux](https://keysi.dev/) · [View the source](https://github.com/keys-i/portfolio)
 
-This is a personal website of theme Ubuntu 20.04, made using Next.js & Tailwind CSS.
-If you want to edit this, Clone this project ,and edit the files in `/src/components`.
+The GitHub Pages project URL is <https://keys-i.github.io/portfolio/>; it redirects to the custom
+domain above.
 
-To run this on localhost
-type `npm start` and when u are done coding type `npm run build` to build your app.
+## Explore
 
-_NOTE: if you have yarn just replace `npm start` and `npm run build` with `yarn start` and `yarn build`._
+- Open **About Rad** for the portfolio, projects, skills, education, and résumé.
+- Try familiar commands in the terminal, use the calculator, or change the wallpaper and theme.
+- Browse the app launcher and desktop shortcuts. Everything runs in the browser.
+- Configure the optional EmailJS form to make the Contact app send messages.
 
-<a href="https://www.buymeacoffee.com/radhesh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 140px !important;" ></a>
+## Run it locally
 
-### To make the contact form work
+Install Node.js 22 or newer, then:
 
-- Create a account in [emailjs](https://www.emailjs.com/) create also new Outlook or Gmail account to be able
-  to send email.
-- Create a new service, select and log in to your newly created outlook or gmail account on EmailJS.
-- Also create a new template, containing the body `Name`: `{{name}}`, `Subject`: `{{subject}}`, `Message`: `{{message}}`.
-- Go back to the dashboard and get the Service ID copy it.
-- Create a .env file in your root folder and put
-
+```sh
+npm ci
+npm run dev
 ```
 
-NEXT_PUBLIC_SERVICE_ID = 'YOUR_SERVICE_ID'
-NEXT_PUBLIC_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'
-NEXT_PUBLIC_USER_ID = 'YOUR_USER_ID'
+Open <http://localhost:3000>. To enable the contact form, copy `.env.example` to `.env.local` and
+add your EmailJS browser identifiers. Restrict allowed origins and rate limits in EmailJS; never
+commit private credentials.
 
+## Quality checks
+
+JavaScript formatting and linting use the Rust-based Oxfmt and Oxlint toolchain.
+
+```sh
+npm run check
+npm run build
+cargo fmt --check
+cargo clippy --locked --all-targets -- -D warnings
+cargo test --locked
 ```
 
-into it. Replace \*your user id and your service ID with your values in your EmailJS service.
+GitHub Actions runs the same checks, CodeQL, dependency review, and `npm audit`. Successful pushes
+to `master` are exported by Next.js and deployed through GitHub Pages.
 
-### `EmailJS Template Structure`
+## Releases
 
-![EmailJS](https://user-images.githubusercontent.com/111045472/213639218-5226d9de-8b11-4a66-a4b6-d1b03a8ffac2.png)
+The initial `26.8.0` version borrows Ubuntu’s year-and-month feel while remaining valid Semantic
+Versioning (no leading zero in `8`). From that baseline, release-plz uses conventional commits to
+prepare patch, minor, and major releases with changelog updates.
 
-## This project was made using Create Next App! Here is the scripts that u can run.
+## Join in
 
-### `npm start`
+Please read the [contribution guide](docs/CONTRIBUTING.md),
+[Code of Conduct](CODE_OF_CONDUCT.md), and [security policy](SECURITY.md) before opening a change.
+The release history lives in [CHANGELOG.md](CHANGELOG.md).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run extract`
-
-Used to extract the app for production to the `out` folder.\
-It correctly bundles React in production mode into static `HTML` files and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributiors who wants to make this website better can make contribution,which will be **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Added some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## Snapshot of the application
-
-![Project](./public/files/test.jpeg)
+Rad’s Portfolio is available under the [GNU General Public License v3.0](LICENSE).

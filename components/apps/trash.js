@@ -63,11 +63,7 @@ export class Trash extends Component {
   emptyScreen = () => {
     return (
       <div className="flex-grow flex flex-col justify-center items-center">
-        <img
-          className=" w-24"
-          src="./themes/Yaru/status/user-trash-symbolic.svg"
-          alt="Ubuntu Trash"
-        />
+        <img className=" w-24" src="./themes/Yaru/status/user-trash-symbolic.svg" alt="Trash" />
         <span className="font-bold mt-4 text-xl px-1 text-gray-400">Trash is Empty</span>
       </div>
     );
@@ -86,7 +82,7 @@ export class Trash extends Component {
               className="flex flex-col items-center text-sm outline-none w-16 my-2 mx-4"
             >
               <div className="w-16 h-16 flex items-center justify-center">
-                <img src={item.icon} alt="Ubuntu File Icons" />
+                <img src={item.icon} alt="File icon" />
               </div>
               <span className="text-center rounded px-0.5">{item.name}</span>
             </div>

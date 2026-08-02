@@ -5,6 +5,11 @@ with an Ubuntu-inspired `YY.M.patch` starting point.
 
 ## [Unreleased]
 
+### Changed
+
+- Renamed the public desktop experience to Krad Linux and humanized the project documentation.
+- Added contribution, conduct, and security policies with private reporting instructions.
+
 ## [26.8.0] - 2026-08-01
 
 ### Changed
