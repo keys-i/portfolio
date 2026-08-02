@@ -5,6 +5,12 @@ with an Ubuntu-inspired `YY.M.patch` starting point.
 
 ## [Unreleased]
 
+## [26.9.0](https://github.com/keys-i/portfolio/compare/v26.8.0...v26.9.0) - 2026-08-02
+
+### Added
+
+- present Rad's Portfolio as Krad Linux ([#13](https://github.com/keys-i/portfolio/pull/13))
+
 ### Changed
 
 - Renamed the public desktop experience to Krad Linux and humanized the project documentation.
