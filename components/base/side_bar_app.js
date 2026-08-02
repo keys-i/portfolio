@@ -53,7 +53,7 @@ export class SideBarApp extends Component {
           height="28px"
           className="w-7"
           src={this.props.icon}
-          alt="Ubuntu App Icon"
+          alt={`${this.props.title} app icon`}
         />
         <img
           className={

@@ -29,7 +29,7 @@ export class Terminal extends Component {
       ],
       skills: ["OS development", "C", "RISC-V", "C#", "Raspberry Pi", "Python", "Rust"],
       projects: [
-        "radhesh1-personal-portfolio",
+        "rad-portfolio",
         "PrimusOS",
         '"Hello World" OS',
         "Simple OS",
@@ -85,7 +85,7 @@ export class Terminal extends Component {
       <React.Fragment key={id}>
         <div className="flex w-full h-5">
           <div className="flex">
-            <div className=" text-ubt-green">radhesh@fsf</div>
+            <div className=" text-ubt-green">rad@krad</div>
             <div className="text-white mx-px font-medium">:</div>
             <div className=" text-ubt-blue">{this.current_directory}</div>
             <div className="text-white mx-px font-medium mr-1">$</div>
@@ -269,7 +269,7 @@ export class Terminal extends Component {
         break;
       case "pwd":
         let str = this.current_directory;
-        result = str.replace("~", "/home/radhesh");
+        result = str.replace("~", "/home/rad");
         break;
       case "code":
         if (words[0] === "." || words.length === 0) {
@@ -278,7 +278,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands:[ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg]";
+            "' not found, or not yet implemented.<br>Available Commands:[ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg]";
         }
         break;
       case "echo":
@@ -291,7 +291,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "chrome":
@@ -301,7 +301,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "todoist":
@@ -311,7 +311,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "trash":
@@ -321,17 +321,17 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
-      case "about-radhesh":
+      case "about-rad":
         if (words[0] === "." || words.length === 0) {
           this.props.openApp("about-radhesh");
         } else {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "terminal":
@@ -341,7 +341,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "settings":
@@ -351,7 +351,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "sendmsg":
@@ -361,7 +361,7 @@ export class Terminal extends Component {
           result =
             "Command '" +
             main +
-            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+            "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
         }
         break;
       case "clear":
@@ -377,7 +377,7 @@ export class Terminal extends Component {
         result =
           "Command '" +
           main +
-          "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-radhesh, todoist, trash, settings, sendmsg ]";
+          "' not found, or not yet implemented.<br>Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-rad, todoist, trash, settings, sendmsg ]";
     }
     document.getElementById(`row-result-${rowId}`).textContent = result.replaceAll("<br>", "\n");
     this.appendTerminalRow();

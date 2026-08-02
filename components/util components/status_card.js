@@ -76,7 +76,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/audio-headphones-symbolic.svg"
-              alt="ubuntu headphone"
+              alt="Volume"
             />
           </div>
           <Slider
@@ -92,7 +92,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/display-brightness-symbolic.svg"
-              alt="ubuntu brightness"
+              alt="Brightness"
             />
           </div>
           <Slider
@@ -111,7 +111,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/network-wireless-signal-good-symbolic.svg"
-              alt="ubuntu wifi"
+              alt="Wi-Fi"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between text-gray-400">
@@ -125,7 +125,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/bluetooth-symbolic.svg"
-              alt="ubuntu bluetooth"
+              alt="Bluetooth"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between text-gray-400">
@@ -139,7 +139,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/battery-good-symbolic.svg"
-              alt="ubuntu battery"
+              alt="Battery"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between text-gray-400">
@@ -159,7 +159,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/emblem-system-symbolic.svg"
-              alt="ubuntu settings"
+              alt="Settings"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between">
@@ -175,7 +175,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/changes-prevent-symbolic.svg"
-              alt="ubuntu lock"
+              alt="Lock"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between">
@@ -191,7 +191,7 @@ export class StatusCard extends Component {
               width="16px"
               height="16px"
               src="./themes/Yaru/status/system-shutdown-symbolic.svg"
-              alt="ubuntu power"
+              alt="Power"
             />
           </div>
           <div className="w-2/3 flex items-center justify-between">

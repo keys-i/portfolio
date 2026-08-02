@@ -126,7 +126,7 @@ export class Gedit extends Component {
             <img
               className={" w-8 absolute animate-spin"}
               src="./themes/Yaru/status/process-working-symbolic.svg"
-              alt="Ubuntu Process Symbol"
+              alt="Sending message"
             />
           </div>
         ) : null}

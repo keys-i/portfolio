@@ -1,59 +1,35 @@
 import React from "react";
 import Head from "next/head";
 
+const title = "Rad’s Portfolio | Krad Linux";
+const description =
+  "Explore Rad’s projects, skills, résumé, and experiments through the browser-based Krad Linux desktop.";
+const siteUrl = "https://keysi.dev/";
+const imageUrl = `${siteUrl}images/logos/profile.png`;
+
 export default function Meta() {
   return (
     <Head>
-      /* Primary Meta Tags */
-      <title>Radhesh Goel Portfolio - Computer Engineering Student</title>
+      <title>{title}</title>
       <meta charSet="utf-8" />
-      <meta name="title" content="Radhesh Goel Portfolio - Computer Engineering Student" />
-      <meta
-        name="description"
-        content="Radhesh Goel's (radhesh1) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="author" content="Radhesh Goel (radhesh1)" />
-      <meta
-        name="keywords"
-        content="radhesh1, radhesh1's portfolio, radhesh1 linux, ubuntu portfolio, Radhesh Goel portfolio, Radhesh Goel computer, Radhesh Goel ubuntu portfolio"
-      />
+      <meta name="description" content={description} />
       <meta name="robots" content="index, follow" />
-      <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-      <meta name="language" content="English" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="theme-color" content="#E95420" />
-      /* Search Engine */
-      <meta name="image" content="images/logos/favicon.ico" />
-      /* Schema.org for Google */
-      <meta itemProp="name" content="Radhesh Goel Portfolio - Computer Engineering Student" />
-      <meta
-        itemProp="description"
-        content="Radhesh Goel's (radhesh1) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta itemProp="image" content="images/logos/favicon.ico" />
-      /* Twitter */
+      <meta name="theme-color" content="#e95420" />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:title" content="Radhesh Goel Portfolio - Computer Engineering Student" />
-      <meta
-        name="twitter:description"
-        content="Radhesh Goel's (radhesh1) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="twitter:site" content="radhesh1" />
-      <meta name="twitter:creator" content="radhesh1" />
-      <meta name="twitter:image:src" content="images/logos/logo_1024.png" />
-      /* Open Graph general (Facebook, Pinterest & Google+) */
-      <meta name="og:title" content="Radhesh Goel Portfolio - Computer Engineering Student" />
-      <meta
-        name="og:description"
-        content="Radhesh Goel's (radhesh1) Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
-      />
-      <meta name="og:image" content="images/logos/logo_1200.png" />
-      <meta name="og:url" content="http://radhesh1.github.io/" />
-      <meta name="og:site_name" content="Radhesh Goel Personal Portfolio" />
-      <meta name="og:locale" content="en_IN" />
-      <meta name="og:type" content="website" />
-      <link rel="icon" href="images/logos/favicon.ico" />
-      <link rel="apple-touch-icon" href="images/logos/logo.png" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={imageUrl} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={imageUrl} />
+      <meta property="og:url" content={siteUrl} />
+      <meta property="og:site_name" content="Rad’s Portfolio" />
+      <meta property="og:locale" content="en_AU" />
+      <meta property="og:type" content="website" />
+      <link rel="canonical" href={siteUrl} />
+      <link rel="icon" href="/images/logos/favicon.ico" />
+      <link rel="apple-touch-icon" href="/images/logos/profile.png" />
     </Head>
   );
 }
