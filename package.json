@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.5.4",
-    "oxfmt": "0.62.0",
+    "oxfmt": "0.63.0",
     "oxlint": "1.77.0",
     "postcss": "8.5.26",
     "tailwindcss": "^3.4.19"
