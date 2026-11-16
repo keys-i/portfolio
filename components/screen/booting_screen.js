@@ -43,7 +43,10 @@ function BootingScreen(props) {
         )}
       </button>
       <div className="text-2xl font-light tracking-wide text-white">Rad’s Portfolio</div>
-      <div className="text-white mb-4">
+      <nav
+        aria-label="Radhesh Goel online"
+        className="flex flex-wrap justify-center gap-3 text-white mb-4"
+      >
         <a
           href="https://github.com/keys-i/portfolio"
           rel="noreferrer noopener"
@@ -52,7 +55,16 @@ function BootingScreen(props) {
         >
           source on GitHub
         </a>
-      </div>
+        <a href="https://uni.keysi.dev/" className="underline">
+          study notes
+        </a>
+        <a href="https://share.keysi.dev/" className="underline">
+          share.git
+        </a>
+        <a href="https://cast.keysi.dev/" className="underline">
+          QuestRelay
+        </a>
+      </nav>
     </div>
   );
 }
