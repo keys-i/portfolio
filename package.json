@@ -23,7 +23,7 @@
     "react-onclickoutside": "^6.13.2"
   },
   "devDependencies": {
-    "autoprefixer": "^10.5.4",
+    "autoprefixer": "^10.6.1",
     "oxfmt": "0.67.0",
     "oxlint": "1.80.0",
     "postcss": "8.5.28",
